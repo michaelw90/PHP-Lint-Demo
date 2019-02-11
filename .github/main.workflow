@@ -1,5 +1,5 @@
 workflow "PHP Linting" {
-  resolves = ["Execute Linting"]
+  resolves = ["Execute"]
   on = "pull_request"
 }
 
