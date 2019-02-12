@@ -4,5 +4,5 @@ workflow "PHP Linting" {
 }
 
 action "Execute" {
-  uses = "michaelw90/php-lint@master"
+  uses = "michaelw90/PHP-Lint@master"
 }
